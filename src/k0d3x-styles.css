@@ -25,12 +25,16 @@ body {
     position: absolute; /* Absolute positioning */
     top: 10px; /* 10px from the top */
     right: 10px; /* 10px from the right */
-    background-color: #e74c3c; /* Red background color */
-    color: white; /* White text color */
+    background-color: #E84142; /* Avalanche red background color */
+    color: rgb(34, 33, 33); /* dark text color */
     padding: 8px 12px; /* Padding inside the button */
     border-radius: 4px; /* Rounded corners */
     cursor: pointer; /* Pointer cursor on hover */
     font-family: 'Roboto Mono', monospace; /* Set font to Roboto Mono */
+}
+
+.share-btn:hover {
+    background-color: #c4200e; /* dark red on hover */
 }
 
 .profile {
@@ -50,7 +54,7 @@ body {
 }
 
 .highlight {
-    color: #e74c3c; /* Red color for highlighted text */
+    color: #E84142; /* Avalanche red color for highlighted text */
 }
 
 .bio {
@@ -65,8 +69,8 @@ body {
 }
 
 .link {
-    background-color: #e74c3c; /* Red background color */
-    color: rgb(34, 33, 33); /* White text color */
+    background-color: #E84142; /* Avalanche red background color */
+    color: rgb(34, 33, 33); /* dark text color */
     padding: 10px 20px; /* Padding inside the link */
     border-radius: 4px; /* Rounded corners */
     text-decoration: none; /* Remove underline from links */
@@ -77,7 +81,7 @@ body {
 }
 
 .link:hover {
-    background-color: #c0392b; /* Darker red on hover */
+    background-color: #c4200e; /* Darker red on hover */
 }
 
 .thumbnail {
@@ -101,7 +105,7 @@ body {
 }
 
 .social-link:hover {
-    color: #e74c3c; /* Red color on hover */
+    color: #E84142; /* Avalanche red color on hover */
 }
 
 .icon {
