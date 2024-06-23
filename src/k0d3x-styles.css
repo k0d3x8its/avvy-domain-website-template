@@ -66,7 +66,7 @@ body {
 
 .link {
     background-color: #e74c3c; /* Red background color */
-    color: white; /* White text color */
+    color: rgb(34, 33, 33); /* White text color */
     padding: 10px 20px; /* Padding inside the link */
     border-radius: 4px; /* Rounded corners */
     text-decoration: none; /* Remove underline from links */
